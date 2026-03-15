@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Claude Code / OMC
+.omc/
+.claude/
+
+# Dependencies
+node_modules/
+
+# Output
+screenshots/
+blog-drafts/
+*.png
+*.jpg
+*.svg
+!skills/**/*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
